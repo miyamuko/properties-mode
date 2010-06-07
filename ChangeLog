@@ -1,0 +1,88 @@
+2006-03-23  MIYAMUKO Katsuyuki
+
+	* (properties-map-sjis-to-unicode-escape0): 16 進を大文字に変換するよ
+	うにした。
+
+2005-09-05  MIYAMUKO Katsuyuki
+
+	* properties-map-unicode-escape-to-sjis: 大文字 16 進を無視していた
+	のを修正。
+
+2005-06-27  MIYAMUKO Katsuyuki
+
+	* properties-indent-backslash: バックスラッシュを入力したときや
+	バックスラッシュの前でタブを押したときに適当にインデントをして
+	見るようにした。
+
+2004-12-28  MIYAMUKO Katsuyuki
+
+	* properties-adjust-property: value がない場合に separator のカラム
+	が調整されない問題を修正。
+
+2004-11-09  MIYAMUKO Katsuyuki
+
+	* *properties-auto-native2ascii-exclude-list*: 自動的に native2ascii
+	しないファイルのパターンを指定できるようにした。
+
+2004-11-08  MIYAMUKO Katsuyuki
+
+	* properties-internal-native-to-ascii-region: native2ascii.exe を呼
+	び出すのは重いので自前で native2ascii するようにした。
+
+	* *properties-arguments-pattern*: MessageFormat の引数 ({0} とか) を
+	ハイライトするようにした。
+
+2004-08-09  MIYAMUKO Katsuyuki
+
+	* サイト移転に伴うこまごまとした修正
+
+2004-01-07  MIYAMUKO Katsuyuki
+
+	* properties-contain-multibyte-char-p: コメント中のマルチバイト文字は無視する
+
+	* properties-toggle-auto-n2a: 追加
+
+2003-08-12  MIYAMUKO Katsuyuki
+
+	* インデント周りのバグ修正。
+
+	* ni-autoload 用ファイルをやっと追加。
+
+2003-05-08  MIYAMUKO Katsuyuki
+
+	* バグ修正
+
+	* CSV に変換とかできるようになった
+	  properties-convert-to-csv
+
+2003-05-08  MIYAMUKO Katsuyuki
+
+	* 説明するのが面倒なバグ修正
+
+2003-05-08  MIYAMUKO Katsuyuki
+
+	* 正確な色づけはあきらめて正規表現を単純化した。
+
+	* プロパティのセパレータまわりの空白を除去。
+	  - properties-optimize-property
+
+	* コメント関連でいろいろ追加。
+	  - properties-comment-region
+	  - properties-uncomment-region
+	  - properties-comment-toggle-line
+
+2003-05-03  MIYAMUKO Katsuyuki
+
+	* プロパティのセパレータと値のカラムをそろえれるようにした。
+	  - properties-adjust-property
+
+	* 正規表現を見直したので気持ちはやくなったはず。
+
+2003-04-25  MIYAMUKO Katsuyuki
+
+	* 複数の properties ファイルを開いて (({properties-copy-key})) を
+	  実行した場合の処理がバグっていたのを修正
+
+2003-04-13  MIYAMUKO Katsuyuki
+
+	* 初期リリース
