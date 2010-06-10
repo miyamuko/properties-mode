@@ -1,88 +1,88 @@
 2006-03-23  MIYAMUKO Katsuyuki
 
-	* (properties-map-sjis-to-unicode-escape0): 16 i‚ğ‘å•¶š‚É•ÏŠ·‚·‚é‚æ
-	‚¤‚É‚µ‚½B
+	* (properties-map-sjis-to-unicode-escape0): 16 é€²ã‚’å¤§æ–‡å­—ã«å¤‰æ›ã™ã‚‹ã‚ˆ
+	ã†ã«ã—ãŸã€‚
 
 2005-09-05  MIYAMUKO Katsuyuki
 
-	* properties-map-unicode-escape-to-sjis: ‘å•¶š 16 i‚ğ–³‹‚µ‚Ä‚¢‚½
-	‚Ì‚ğC³B
+	* properties-map-unicode-escape-to-sjis: å¤§æ–‡å­— 16 é€²ã‚’ç„¡è¦–ã—ã¦ã„ãŸ
+	ã®ã‚’ä¿®æ­£ã€‚
 
 2005-06-27  MIYAMUKO Katsuyuki
 
-	* properties-indent-backslash: ƒoƒbƒNƒXƒ‰ƒbƒVƒ…‚ğ“ü—Í‚µ‚½‚Æ‚«‚â
-	ƒoƒbƒNƒXƒ‰ƒbƒVƒ…‚Ì‘O‚Åƒ^ƒu‚ğ‰Ÿ‚µ‚½‚Æ‚«‚É“K“–‚ÉƒCƒ“ƒfƒ“ƒg‚ğ‚µ‚Ä
-	Œ©‚é‚æ‚¤‚É‚µ‚½B
+	* properties-indent-backslash: ãƒãƒƒã‚¯ã‚¹ãƒ©ãƒƒã‚·ãƒ¥ã‚’å…¥åŠ›ã—ãŸã¨ãã‚„
+	ãƒãƒƒã‚¯ã‚¹ãƒ©ãƒƒã‚·ãƒ¥ã®å‰ã§ã‚¿ãƒ–ã‚’æŠ¼ã—ãŸã¨ãã«é©å½“ã«ã‚¤ãƒ³ãƒ‡ãƒ³ãƒˆã‚’ã—ã¦
+	è¦‹ã‚‹ã‚ˆã†ã«ã—ãŸã€‚
 
 2004-12-28  MIYAMUKO Katsuyuki
 
-	* properties-adjust-property: value ‚ª‚È‚¢ê‡‚É separator ‚ÌƒJƒ‰ƒ€
-	‚ª’²®‚³‚ê‚È‚¢–â‘è‚ğC³B
+	* properties-adjust-property: value ãŒãªã„å ´åˆã« separator ã®ã‚«ãƒ©ãƒ 
+	ãŒèª¿æ•´ã•ã‚Œãªã„å•é¡Œã‚’ä¿®æ­£ã€‚
 
 2004-11-09  MIYAMUKO Katsuyuki
 
-	* *properties-auto-native2ascii-exclude-list*: ©“®“I‚É native2ascii
-	‚µ‚È‚¢ƒtƒ@ƒCƒ‹‚Ìƒpƒ^[ƒ“‚ğw’è‚Å‚«‚é‚æ‚¤‚É‚µ‚½B
+	* *properties-auto-native2ascii-exclude-list*: è‡ªå‹•çš„ã« native2ascii
+	ã—ãªã„ãƒ•ã‚¡ã‚¤ãƒ«ã®ãƒ‘ã‚¿ãƒ¼ãƒ³ã‚’æŒ‡å®šã§ãã‚‹ã‚ˆã†ã«ã—ãŸã€‚
 
 2004-11-08  MIYAMUKO Katsuyuki
 
-	* properties-internal-native-to-ascii-region: native2ascii.exe ‚ğŒÄ
-	‚Ño‚·‚Ì‚Íd‚¢‚Ì‚Å©‘O‚Å native2ascii ‚·‚é‚æ‚¤‚É‚µ‚½B
+	* properties-internal-native-to-ascii-region: native2ascii.exe ã‚’å‘¼
+	ã³å‡ºã™ã®ã¯é‡ã„ã®ã§è‡ªå‰ã§ native2ascii ã™ã‚‹ã‚ˆã†ã«ã—ãŸã€‚
 
-	* *properties-arguments-pattern*: MessageFormat ‚Ìˆø” ({0} ‚Æ‚©) ‚ğ
-	ƒnƒCƒ‰ƒCƒg‚·‚é‚æ‚¤‚É‚µ‚½B
+	* *properties-arguments-pattern*: MessageFormat ã®å¼•æ•° ({0} ã¨ã‹) ã‚’
+	ãƒã‚¤ãƒ©ã‚¤ãƒˆã™ã‚‹ã‚ˆã†ã«ã—ãŸã€‚
 
 2004-08-09  MIYAMUKO Katsuyuki
 
-	* ƒTƒCƒgˆÚ“]‚É”º‚¤‚±‚Ü‚²‚Ü‚Æ‚µ‚½C³
+	* ã‚µã‚¤ãƒˆç§»è»¢ã«ä¼´ã†ã“ã¾ã”ã¾ã¨ã—ãŸä¿®æ­£
 
 2004-01-07  MIYAMUKO Katsuyuki
 
-	* properties-contain-multibyte-char-p: ƒRƒƒ“ƒg’†‚Ìƒ}ƒ‹ƒ`ƒoƒCƒg•¶š‚Í–³‹‚·‚é
+	* properties-contain-multibyte-char-p: ã‚³ãƒ¡ãƒ³ãƒˆä¸­ã®ãƒãƒ«ãƒãƒã‚¤ãƒˆæ–‡å­—ã¯ç„¡è¦–ã™ã‚‹
 
-	* properties-toggle-auto-n2a: ’Ç‰Á
+	* properties-toggle-auto-n2a: è¿½åŠ 
 
 2003-08-12  MIYAMUKO Katsuyuki
 
-	* ƒCƒ“ƒfƒ“ƒgü‚è‚ÌƒoƒOC³B
+	* ã‚¤ãƒ³ãƒ‡ãƒ³ãƒˆå‘¨ã‚Šã®ãƒã‚°ä¿®æ­£ã€‚
 
-	* ni-autoload —pƒtƒ@ƒCƒ‹‚ğ‚â‚Á‚Æ’Ç‰ÁB
+	* ni-autoload ç”¨ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ã‚„ã£ã¨è¿½åŠ ã€‚
 
 2003-05-08  MIYAMUKO Katsuyuki
 
-	* ƒoƒOC³
+	* ãƒã‚°ä¿®æ­£
 
-	* CSV ‚É•ÏŠ·‚Æ‚©‚Å‚«‚é‚æ‚¤‚É‚È‚Á‚½
+	* CSV ã«å¤‰æ›ã¨ã‹ã§ãã‚‹ã‚ˆã†ã«ãªã£ãŸ
 	  properties-convert-to-csv
 
 2003-05-08  MIYAMUKO Katsuyuki
 
-	* à–¾‚·‚é‚Ì‚ª–Ê“|‚ÈƒoƒOC³
+	* èª¬æ˜ã™ã‚‹ã®ãŒé¢å€’ãªãƒã‚°ä¿®æ­£
 
 2003-05-08  MIYAMUKO Katsuyuki
 
-	* ³Šm‚ÈF‚Ã‚¯‚Í‚ ‚«‚ç‚ß‚Ä³‹K•\Œ»‚ğ’Pƒ‰»‚µ‚½B
+	* æ­£ç¢ºãªè‰²ã¥ã‘ã¯ã‚ãã‚‰ã‚ã¦æ­£è¦è¡¨ç¾ã‚’å˜ç´”åŒ–ã—ãŸã€‚
 
-	* ƒvƒƒpƒeƒB‚ÌƒZƒpƒŒ[ƒ^‚Ü‚í‚è‚Ì‹ó”’‚ğœ‹B
+	* ãƒ—ãƒ­ãƒ‘ãƒ†ã‚£ã®ã‚»ãƒ‘ãƒ¬ãƒ¼ã‚¿ã¾ã‚ã‚Šã®ç©ºç™½ã‚’é™¤å»ã€‚
 	  - properties-optimize-property
 
-	* ƒRƒƒ“ƒgŠÖ˜A‚Å‚¢‚ë‚¢‚ë’Ç‰ÁB
+	* ã‚³ãƒ¡ãƒ³ãƒˆé–¢é€£ã§ã„ã‚ã„ã‚è¿½åŠ ã€‚
 	  - properties-comment-region
 	  - properties-uncomment-region
 	  - properties-comment-toggle-line
 
 2003-05-03  MIYAMUKO Katsuyuki
 
-	* ƒvƒƒpƒeƒB‚ÌƒZƒpƒŒ[ƒ^‚Æ’l‚ÌƒJƒ‰ƒ€‚ğ‚»‚ë‚¦‚ê‚é‚æ‚¤‚É‚µ‚½B
+	* ãƒ—ãƒ­ãƒ‘ãƒ†ã‚£ã®ã‚»ãƒ‘ãƒ¬ãƒ¼ã‚¿ã¨å€¤ã®ã‚«ãƒ©ãƒ ã‚’ãã‚ãˆã‚Œã‚‹ã‚ˆã†ã«ã—ãŸã€‚
 	  - properties-adjust-property
 
-	* ³‹K•\Œ»‚ğŒ©’¼‚µ‚½‚Ì‚Å‹C‚¿‚Í‚â‚­‚È‚Á‚½‚Í‚¸B
+	* æ­£è¦è¡¨ç¾ã‚’è¦‹ç›´ã—ãŸã®ã§æ°—æŒã¡ã¯ã‚„ããªã£ãŸã¯ãšã€‚
 
 2003-04-25  MIYAMUKO Katsuyuki
 
-	* •¡”‚Ì properties ƒtƒ@ƒCƒ‹‚ğŠJ‚¢‚Ä (({properties-copy-key})) ‚ğ
-	  Às‚µ‚½ê‡‚Ìˆ—‚ªƒoƒO‚Á‚Ä‚¢‚½‚Ì‚ğC³
+	* è¤‡æ•°ã® properties ãƒ•ã‚¡ã‚¤ãƒ«ã‚’é–‹ã„ã¦ (({properties-copy-key})) ã‚’
+	  å®Ÿè¡Œã—ãŸå ´åˆã®å‡¦ç†ãŒãƒã‚°ã£ã¦ã„ãŸã®ã‚’ä¿®æ­£
 
 2003-04-13  MIYAMUKO Katsuyuki
 
-	* ‰ŠúƒŠƒŠ[ƒX
+	* åˆæœŸãƒªãƒªãƒ¼ã‚¹
